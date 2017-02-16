@@ -19,3 +19,6 @@ background-color
 
 About me:
 I'm a new developer.
+
+Future Plans:
+I'm gonna make this site more colourful and exciting!

@@ -65,9 +65,9 @@ function checkAnswer() {
     askingQuestion = false;
 
     // determine which radio button they clicked
-    var userpick,
-      correctIndex,
-      radios = document.getElementsByName("quiz" + currentQuestion);
+    var userpick;
+    var correctIndex;
+    var radios = document.getElementsByName("quiz" + currentQuestion);
     for (var i = 0; i < radios.length; i++) {
       if (radios[i].checked) { // if this radio button is checked
         userpick = radios[i].value;
